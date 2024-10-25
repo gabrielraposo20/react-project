@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import GlobalStyle from './styles/GlobalStyles.tsx';
+import { ToastContainer } from 'react-toastify';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './components/Home';
@@ -13,9 +14,6 @@ import { NotFound } from './components/NotFound';
 import { Counter } from './components/Counter';
 import { NumberGuess } from './components/NumberGuess';
 import { UnderPage } from './components/UnderPage';
-
-import { ToastContainer } from 'react-toastify';
-
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
