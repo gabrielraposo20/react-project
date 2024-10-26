@@ -12,7 +12,7 @@ export const Text = styled.p`
     display: flex;
     justify-content: center;
     font-size: 1.2em;
-    margin: 40px 20px;
+    margin: 40px 10px;
 `;
 
 export const IframeContainer = styled.div`
