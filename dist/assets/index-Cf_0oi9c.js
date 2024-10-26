@@ -299,7 +299,7 @@ Error generating stack: `+l.message+`
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: #272424;
     color: #adadad;
     padding: 1px;
