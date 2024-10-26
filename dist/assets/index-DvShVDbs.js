@@ -198,7 +198,7 @@ Error generating stack: `+l.message+`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-`,Nt=()=>{const e=Math.floor(Math.random()*256),t=Math.floor(Math.random()*256),n=Math.floor(Math.random()*256);return`rgb(${e}, ${t}, ${n})`},Ng=()=>{const[e,t]=E.useState(Nt()),[n,r]=E.useState(Nt()),[o,l]=E.useState(Nt()),[i,u]=E.useState(Nt()),s=()=>{t(Nt()),r(Nt())},a=h=>{h.stopPropagation(),l(Nt()),u(Nt())};return N.jsxs(Pg,{onClick:s,style:{backgroundColor:e},children:[N.jsx(Cg,{style:{color:n},children:"Colors!!"}),N.jsx(_g,{onClick:a,style:{backgroundColor:o,color:i},children:"Click!"})]})},Tg=()=>N.jsx("div",{children:N.jsx("h1",{children:"page not found"})}),Ig=U.h1`
+`,Nt=()=>{const e=Math.floor(Math.random()*256),t=Math.floor(Math.random()*256),n=Math.floor(Math.random()*256);return`rgb(${e}, ${t}, ${n})`},Ng=()=>{const[e,t]=E.useState(Nt()),[n,r]=E.useState(Nt()),[o,l]=E.useState(Nt()),[i,u]=E.useState(Nt()),s=()=>{t(Nt()),r(Nt())},a=h=>{h.stopPropagation(),l(Nt()),u(Nt())};return N.jsxs(Pg,{onClick:s,style:{backgroundColor:e},children:[N.jsx(Cg,{style:{color:n},children:"Colors!!"}),N.jsx(_g,{onClick:a,style:{backgroundColor:o,color:i},children:"Click!"})]})},Tg=()=>N.jsx("div",{children:N.jsx("h1",{children:"Page not found"})}),Ig=U.h1`
     font-size: 2.3em;
     font-weight: bolder;
     display: flex;
