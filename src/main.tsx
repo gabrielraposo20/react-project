@@ -21,12 +21,12 @@ createRoot(document.getElementById('root')!).render(
       <Menu />
 
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/BMI' element={<BMI />}/>
-        <Route path='/Colors' element={<Colors /> }/>
-        <Route path='/Counter' element={<Counter />} />
-        <Route path='/NumberGuess' element={<NumberGuess />} />
+        <Route path='/react-project' element={<Home />}/>
+        <Route path='/react-project/About' element={<About />}/>
+        <Route path='/react-project/BMI' element={<BMI />}/>
+        <Route path='/react-project/Colors' element={<Colors /> }/>
+        <Route path='/react-project/Counter' element={<Counter />} />
+        <Route path='/react-project/NumberGuess' element={<NumberGuess />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
 
