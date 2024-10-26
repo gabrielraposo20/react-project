@@ -136,7 +136,7 @@ Error generating stack: `+l.message+`
         text-decoration: none;
         font-weight: bolder;
     }
-`,wg=()=>N.jsxs(yg,{children:[N.jsx(Cn,{children:N.jsx(En,{to:"/",children:"Home"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/about",children:"About"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/BMI",children:"BMI Calculator"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/Colors",children:"Colors"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/Counter",children:"Counter"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/NumberGuess",children:"Number Guess"})})]}),Sg=U.h1`
+`,wg=()=>N.jsxs(yg,{children:[N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/",children:"Home"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/About",children:"About"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/BMI",children:"BMI Calculator"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/Colors",children:"Colors"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/Counter",children:"Counter"})}),N.jsx(Cn,{children:N.jsx(En,{to:"/react-project/NumberGuess",children:"Number Guess"})})]}),Sg=U.h1`
     font-size: 2.6em;
     font-weight: bolder;
     display: flex;
