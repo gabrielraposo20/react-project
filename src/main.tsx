@@ -27,7 +27,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path='/react-project/Colors' element={<Colors /> }/>
         <Route path='/react-project/Counter' element={<Counter />} />
         <Route path='/react-project/NumberGuess' element={<NumberGuess />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='/react-project/*' element={<NotFound />} />
       </Routes>
 
       <ToastContainer autoClose={2000}/>
