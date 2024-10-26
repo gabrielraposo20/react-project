@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')!).render(
       <Menu />
 
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/react-project/' element={<Home />}/>
         <Route path='/react-project/About' element={<About />}/>
         <Route path='/react-project/BMI' element={<BMI />}/>
         <Route path='/react-project/Colors' element={<Colors /> }/>
