@@ -4,27 +4,27 @@ export const Menu = () => {
     return(
         <Group>
             <Item>
-                <Link to="/">Home</Link>
+                <Link to="/react-project/">Home</Link>
             </Item>
 
             <Item>
-                <Link to="/about">About</Link>
+                <Link to="/react-project/About">About</Link>
             </Item>
 
             <Item>
-                <Link to="/BMI">BMI Calculator</Link>
+                <Link to="/react-project/BMI">BMI Calculator</Link>
             </Item>
 
             <Item>
-                <Link to="/Colors">Colors</Link>
+                <Link to="/react-project/Colors">Colors</Link>
             </Item>
 
             <Item>
-                <Link to="/Counter">Counter</Link>
+                <Link to="/react-project/Counter">Counter</Link>
             </Item>
 
             <Item>
-                <Link to="/NumberGuess">Number Guess</Link>
+                <Link to="/react-project/NumberGuess">Number Guess</Link>
             </Item>
         </Group>
     
